@@ -1,0 +1,94 @@
+*{
+    margin: 0 auto;
+
+}
+:root{
+    --bgc: black;
+    --txtc: white;
+    --boxcolor: #032B3A;
+}
+
+/*Kode til video baggrund fundet på w3schools - https://www.w3schools.com/howto/howto_css_fullscreen_video.asp*/
+#myVideo {
+    background-size: cover;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: auto;
+    height: auto;
+  }
+
+  /*Navigation*/
+  nav{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: transparent;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.048);
+  }
+  
+  .nav-ul {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    list-style-type: none;
+    width: 95%;
+  }
+  .nav-ul.show{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .nav-ul li a {
+    display: inline-block;
+    padding: 0.5em;
+    padding-right:2rem;
+    padding-left:2rem;
+    color: #FCFCFC;
+    text-decoration: none;
+    width: 100%;
+  }
+  
+  nav a:hover,
+  nav a:focus {
+    color: aqua;
+  }
+  
+  .retroweblogo{
+    width: 50%;
+    height: 50%;
+  }
+  .naviconlogo{
+      width: 50%;
+      height: auto;
+  }
+  
+  .hamburger{
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    display: block;
+    background-color: transparent;
+  }
+  
+  .hamburger:focus{
+    outline: none;
+  }
+  @media screen and (min-width: 767px) {
+    .nav-ul{
+      display: show;
+      width: 100%;
+      flex-direction:column;
+    }
+  
+    .hamburger{
+      display: none;
+    }
+  }
