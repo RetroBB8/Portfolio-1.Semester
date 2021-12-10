@@ -1,11 +1,14 @@
 *{
     margin: 0 auto;
-
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
 }
 :root{
     --bgc: black;
     --txtc: white;
     --boxcolor: #032B3A;
+    --headerfont: font-family: 'Staatliches'; 
 }
 
 /*Kode til video baggrund fundet på w3schools - https://www.w3schools.com/howto/howto_css_fullscreen_video.asp*/
@@ -81,6 +84,38 @@
   .hamburger:focus{
     outline: none;
   }
+
+  /*Portfolio*/
+  .headerimg{
+    width: 60%;
+    height: auto;
+    display: block;
+  }
+  .portfolio-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .pfbillede{
+    width: 60%;
+    height: auto;
+    margin-top: 1.25rem;
+    margin-bottom: 0.3125rem;
+    display: flex;
+    justify-content: center;
+  }
+  .pf{
+    background-color: var(--boxcolor);
+    color: var(--txtc);
+    padding: 0.625rem;
+    margin-left: 4.7rem;
+    margin-right: 4.7rem;
+  }
+  .pfheader{
+    font-family: var(--headerfont);
+  }
+
   @media screen and (min-width: 767px) {
     .nav-ul{
       display: show;
