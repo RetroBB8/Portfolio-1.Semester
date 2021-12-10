@@ -116,14 +116,79 @@ body {
     font-family: var(--headerfont);
   }
 
+  .bottomspace{
+    margin-bottom: 5rem;
+  }
+
   @media screen and (min-width: 767px) {
-    .nav-ul{
-      display: show;
-      width: 100%;
-      flex-direction:column;
+    /*Navbar*/
+    .nav{
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
     }
-  
+    .nav-ul{
+      display: flex;
+      width: 100%;
+      flex-direction: right;
+    }
+    .nav-ul li a {
+      display: inline-block
+    }
+    .logo{
+      float: left
+    }
+    .retroweblogo{
+      width: 25%;
+      height: auto;
+    }
+    .naviconlogo{
+      width: 25%;
+      height: auto;
+    }
     .hamburger{
       display: none;
+    }
+
+    /*Portfolio*/
+    .headerimg{
+      width: 35%;
+      height: auto;
+      display: block;
+    }
+    .portfolio-section{
+      display: flex;
+      justify-content: column;
+      flex-wrap: wrap;
+    }
+    .pfbillede{
+      width: 50%;
+      height: auto;
+      margin-top: 1.25rem;
+      margin-bottom: 0.3125rem;
+      display: flex;
+      justify-content: center;
+    }
+    .balletbillede{
+      width: 74.5%;
+      height: auto;
+    }
+    .releatherbillede{
+      width: 28.9%;
+      height: auto;
+    }
+    .pf{
+      background-color: var(--boxcolor);
+      color: var(--txtc);
+      padding: 0.625rem;
+      margin-left: 4.7rem;
+      margin-right: 4.7rem;
+    }
+    .pfheader{
+      font-family: var(--headerfont);
+    }
+  
+    .bottomspace{
+      margin-bottom: 5rem;
     }
   }
