@@ -233,4 +233,37 @@ body {
     .bottomspace{
       margin-bottom: 5rem;
     }
+
+    /*About Me*/
+    
+    .myname{
+      width: 20%;
+      height: auto;
+      display: block;
+    }
+    .aboutmeinfo{
+      background-color: var(--boxcolor);
+      color: var(--txtc);
+      padding: 4.7rem;
+      margin-left: 4.7rem;
+      margin-right: 4.7rem;
+      align-items: center;
+    }
+    .picofme{
+      width: 70%;
+      height: auto;
+      display: block;
+      align-items: center;
+    }
+    .skillsection {
+      background-color: var(--boxcolor);
+      color: var(--txtc);
+      margin-top: 1.25rem;
+      padding: 0.625rem;
+      margin-left: 4.7rem;
+      margin-right: 4.7rem;
+      margin-bottom: 6rem;
+    }
+
+    /*Contact*/
   }
