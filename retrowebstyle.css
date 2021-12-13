@@ -1,6 +1,3 @@
-*{
-    margin: 0 auto;
-}
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -23,7 +20,7 @@ body {
   }
 
   /*Navigation*/
-  nav{
+  .top-nav{
     display: flex;
     align-items: center;
     padding: 15px;
@@ -90,20 +87,24 @@ body {
     width: 60%;
     height: auto;
     display: block;
+    margin-left: 4.375rem;
   }
   .portfolio-section{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
-
   .pfbillede{
     width: 60%;
     height: auto;
     margin-top: 1.25rem;
     margin-bottom: 0.3125rem;
+    margin-left: 4.375rem;
     display: flex;
     justify-content: center;
+  }
+  .releatherbillede{
+    margin: 00.625rem;
   }
   .pf{
     background-color: var(--boxcolor);
@@ -120,23 +121,49 @@ body {
     margin-bottom: 5rem;
   }
 
+/*About Me*/
+  .myname{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: 4.375rem;
+  }
+  .aboutmeinfo{
+    background-color: var(--boxcolor);
+    color: var(--txtc);
+    padding: 0.625rem;
+  }
+  .picofme{
+    width: 70%;
+    height: auto;
+    display: block;
+    align-items: center;
+  }
+  .skillsection {
+    background-color: var(--boxcolor);
+    color: var(--txtc);
+    margin-top: 1.25rem;
+    padding: 0.625rem;
+  }
+
+/*Desktop*/
   @media screen and (min-width: 767px) {
     /*Navbar*/
-    .nav{
+    .top-nav{
       display: flex;
-      justify-content: space-evenly;
+      align-items: center;
+      justify-content: center;
       flex-wrap: wrap;
-    }
+    }   
     .nav-ul{
       display: flex;
       width: 100%;
-      flex-direction: right;
+      flex-direction: row;
+      align-items: right;
+      padding: 0;
     }
     .nav-ul li a {
       display: inline-block
-    }
-    .logo{
-      float: left
     }
     .retroweblogo{
       width: 25%;
@@ -151,30 +178,45 @@ body {
     }
 
     /*Portfolio*/
-    .headerimg{
-      width: 35%;
-      height: auto;
-      display: block;
-    }
-    .portfolio-section{
-      display: flex;
-      justify-content: column;
-      flex-wrap: wrap;
-    }
-    .pfbillede{
-      width: 50%;
-      height: auto;
-      margin-top: 1.25rem;
-      margin-bottom: 0.3125rem;
+    .siteinfo{
       display: flex;
       justify-content: center;
     }
+    .headerimg{
+      width: 35%;
+      height: auto;
+      align-items: center;
+    }
+    .portfolio-section{
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+    .pfcontainer{
+      max-width: 600px;
+    }
+    .pfbillede{
+      width: 70%;
+      height: auto;
+      margin-top: 1.25rem;
+      margin-bottom: 0.3125rem;
+    }
     .balletbillede{
-      width: 74.5%;
+      width: 78%;
       height: auto;
     }
     .releatherbillede{
-      width: 28.9%;
+      width: 78%;
+      height: auto;
+      margin: 0;
+      text-align: center;
+    }
+    .bollywood {
+      width: 85%;
+      height: auto;
+    }
+    .videos {
+      width: 85%;
       height: auto;
     }
     .pf{
