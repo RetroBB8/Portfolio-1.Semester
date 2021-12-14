@@ -104,7 +104,7 @@ body {
     justify-content: center;
   }
   .releatherbillede{
-    margin: 00.625rem;
+    margin: 0.625rem;
   }
   .pf{
     background-color: var(--boxcolor);
@@ -144,6 +144,56 @@ body {
     color: var(--txtc);
     margin-top: 1.25rem;
     padding: 0.625rem;
+    margin-bottom: 1.25rem;
+  }
+  .skilltitle{
+    font-family: var(--headerfont);
+    margin-left: 11px;
+    font-size: 38px;
+    font-weight: bold;
+  }
+  .skillunder{
+    margin-left: 1.25rem;
+  }
+  .skillimg {
+    width: 70%;
+    height: auto;
+    margin-left: 1.25rem;
+  }
+
+  /*Contact*/
+  .contactsection{
+    background-color: var(--boxcolor);
+    color: var(--txtc);
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    margin-bottom: 1.25rem; 
+  }
+  .wtfm{
+    font-size: 24px;
+    margin: 1.25rem;
+  }
+  .contacttext{
+    font-size: 20px;
+    margin: 1.25rem;
+  }
+  .mail{
+    margin-top: 8rem;
+    border-bottom: 2px solid var(--txtc);
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    font-size: 20px;
+  }
+  .phonenumber{
+    border-bottom: 2px solid var(--txtc);
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    font-size: 20px;
+  }
+  .someicons{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 1.8rem;;
   }
 
 /*Desktop*/
@@ -183,7 +233,7 @@ body {
       justify-content: center;
     }
     .headerimg{
-      width: 35%;
+      width: 40%;
       height: auto;
       align-items: center;
     }
@@ -235,11 +285,15 @@ body {
     }
 
     /*About Me*/
-    
+    .siteinfoabm{
+      display: block;
+      margin-left: 25rem;
+    }
     .myname{
-      width: 20%;
+      width: 40%;
       height: auto;
       display: block;
+      align-items: center;
     }
     .aboutmeinfo{
       background-color: var(--boxcolor);
@@ -249,8 +303,11 @@ body {
       margin-right: 4.7rem;
       align-items: center;
     }
+    .abmtext {
+      margin-bottom: 1.25rem;
+    }
     .picofme{
-      width: 70%;
+      width: 50%;
       height: auto;
       display: block;
       align-items: center;
@@ -264,6 +321,58 @@ body {
       margin-right: 4.7rem;
       margin-bottom: 6rem;
     }
+    .skilltitle{
+      font-family: var(--headerfont);
+      margin-left: 11px;
+      font-size: 38px;
+      font-weight: bold;
+    }
+    .skillunder{
+      font-size: 29px;
+      margin-left: 4.7rem;
+    }
+    .skillimg {
+      width: 18%;
+      height: auto;
+      margin-right: 5.4rem;
+      margin-left: 5.4rem;
+      margin-bottom: 4.7rem;
+    }
 
     /*Contact*/
+    .contactsection{
+      background-color: var(--boxcolor);
+      color: var(--txtc);
+      margin-left: 10rem;
+      margin-right: 10rem;
+      margin-bottom: 28em;
+    }
+    .wtfm{
+      font-size: 54px;
+      margin: 1.25rem;
+    }
+    .contacttext{
+      font-size: 20px;
+      margin-left: 10rem;
+      margin-right: 10rem;
+      margin-top: 5rem;
+    }
+    .mail{
+      margin-top: 8rem;
+      border-bottom: 2px solid var(--txtc);
+      margin-left: 28rem;
+      margin-right: 28rem;
+      font-size: 20px;
+    }
+    .phonenumber{
+      border-bottom: 2px solid var(--txtc);
+      margin-left: 28rem;
+      margin-right: 28rem;
+      font-size: 20px;
+    }
+    .someicons{
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      margin-left: 33rem;;
+    }
   }
