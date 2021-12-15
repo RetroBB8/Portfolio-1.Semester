@@ -195,6 +195,12 @@ body {
     margin-bottom: 5rem;
     margin-left: 1.8rem;;
   }
+  .cvlink {
+    font-size: 35px;
+    margin-left: 4rem;
+    color: var(--txtc);
+    padding-bottom: 2rem;
+  }
 
 /*Desktop*/
   @media screen and (min-width: 767px) {
@@ -345,7 +351,7 @@ body {
       color: var(--txtc);
       margin-left: 10rem;
       margin-right: 10rem;
-      margin-bottom: 28em;
+      margin-bottom: 17rem;
     }
     .wtfm{
       font-size: 54px;
@@ -373,6 +379,11 @@ body {
     .someicons{
       margin-top: 5rem;
       margin-bottom: 5rem;
-      margin-left: 33rem;;
+      margin-left: 28rem;;
+    }
+    .cvlink {
+      font-size: 35px;
+      color: var(--txtc);
+      padding-bottom: 2rem;
     }
   }
