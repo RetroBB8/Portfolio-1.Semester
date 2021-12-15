@@ -132,6 +132,8 @@ body {
     background-color: var(--boxcolor);
     color: var(--txtc);
     padding: 0.625rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
   }
   .picofme{
     width: 70%;
@@ -145,6 +147,8 @@ body {
     margin-top: 1.25rem;
     padding: 0.625rem;
     margin-bottom: 1.25rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
   }
   .skilltitle{
     font-family: var(--headerfont);
